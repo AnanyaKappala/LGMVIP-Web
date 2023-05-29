@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Registration Form</title>
+    <link rel="stylesheet" href="/LetsGrowMore/Registration Form/syles.css">
+</head>
+
+<body>
+    <div id="welcome-bar" class="welcomebar">
+        <img src="/LetsGrowMore/Registration Form/images/user 1.png" alt="">
+        <p>Welcome to the Registration Form !</p>
+        <img src="/LetsGrowMore/Registration Form/images/user 1.png" alt="">
+    </div>
+    
+
+
+    <div id="container">
+        <div id="form-container">
+            <h2>Registration Form</h2>
+            <form id="registration-form">
+                <label for="name">Name:</label>
+                <input type="text" id="name" placeholder=" Enter your name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" placeholder=" Enter email" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" placeholder=" Enter phone number" required>
+
+                <label for="address">Address:</label>
+                <textarea id="address" rows="4" placeholder=" Enter permanent address" required></textarea>
+
+                <label for="course">Course:</label>
+                <input type="text" id="course" placeholder=" Enter course" required>
+
+                <label for="documents">Upload Documents:</label>
+                <input type="file" id="documents" required>
+
+                <label for="terms">Terms and Conditions:</label>
+                <div class="checkbox-container">
+                    <input type="checkbox" id="terms" required>
+                    <label for="terms" class="checkbox-label">I agree to the terms and conditions</label>
+                </div>
+                <br>
+
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+
+        <div id="divider"></div>
+
+        <div id="table-container">
+            <h2>Registered Users</h2>
+            <table id="user-table">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Email</th>
+                        <th>Date of Birth</th>
+                        <th>Phone Number</th>
+                        <th>Address</th>
+                        <th>Course</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script src="/LetsGrowMore/Registration Form/main.js"></script>
+</body>
+
+</html>

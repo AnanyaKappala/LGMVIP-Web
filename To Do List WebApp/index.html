@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="/LetsGrowMore/To Do List WebApp/styles.css">
+</head>
+
+<body>
+    <div class="header">
+        <img src="/LetsGrowMore/To Do List WebApp/images/logo.png" alt="Logo" class="logo">
+        <h1>TICK TOCK</h1><br>
+        <p>Tame the clock and stay on track!</p>
+        <div class="login-section">
+            <input type="text" id="username" placeholder="Username">
+            <input type="password" id="password" placeholder="Password">
+            <button type="submit" id="login">Login</button>
+        </div>
+    </div>
+
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="Add a task">
+        <button class="add-button" type="submit">Add</button>
+    </form>
+
+    <h2>Tasks</h2>
+    <ul id="task-list">
+        <!-- Tasks will be dynamically added here -->
+    </ul>
+
+    <h2>Completed Tasks</h2>
+    <ul id="completed-tasks">
+        <!-- Completed tasks will be dynamically added here -->
+    </ul>
+
+    <script src="/LetsGrowMore/To Do List WebApp/main.js"></script>
+</body>
+
+</html>
